@@ -3,3 +3,11 @@ for(var i = 1; i < 10; i++) {   // 곱셈 9번 반복
   ans = N * i;
   console.log(String(N) + '*' + String(i) + '=' + String(ans)); 
 }
+
+// or
+
+var N = 2;
+for(var i = 1; i < 10; i++) {
+  ans = N * i;
+  console.log(String(N) + '*' + String(i) + '=' + String(ans));
+}
