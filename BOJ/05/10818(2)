@@ -1,0 +1,26 @@
+var numArrayLength = 5;
+var numArray = [20, 10, 35, 30, 7];
+
+for(var i = 0; i < numArrayLength; i++) {
+   var numMax;
+   if (numMax === undefined) { 
+// i = 0일 때 변수 numMax는 초기화되지 않았으므로 if문은 true로 평가된다.
+     numMax = numArray[i];
+   }
+   if (numMax < numArray[i]) {
+     numMax = numArray[i];
+   }
+}
+
+for(var i = 0; i < numArrayLength; i++) {
+   var numMin;
+   if (numMin === undefined) {
+// i = 0일 때 변수 numMin은 초기화되지 않았으므로 if문은 true로 평가된다.
+     numMin = numArray[i];
+   }
+   if (numMin > numArray[i]) {
+     numMin = numArray[i];
+   }
+}
+
+console.log(numMin, numMax);
